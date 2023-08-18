@@ -1,0 +1,153 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bbc3cc;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 12px;
+}
+
+button
+{
+    background-color: transparent;
+    border: none;
+}
+
+button:hover
+{
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374f6e;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+#topLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+#line
+{
+    background-color: #b6bec5;
+    height: 1px;
+}
+.point:hover
+{
+    color: rgb(197, 197, 223);
+    font-size: 13px;
+    
+}
+#logo
+{
+    width: 135px;
+    height: 51px;
+    background-image: url("Daraz.png");
+    background-size: cover;
+    
+}
+
+#div1
+{
+    display: flex;
+    justify-content: space-between;
+    height: 71px;
+    background-color: #D5FFD0;
+    align-items: center;
+    /* justify-content: center; */
+    
+}
+#search
+{
+    
+    width: 700px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #374f6e;
+    align-items: center;
+    
+    
+
+}
+#S_input
+{
+    color: rgb(121, 116, 116);
+    height: 100%;
+    width: 180%;
+    border: none;
+   
+}
+#S_input::placeholder
+{
+    font-size: 16px; /* Adjust the font size as needed */
+    text-align: center;
+}
+#S_icon
+{
+    height: 80%;
+    width: 20%; 
+    background-image: url("se.png");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cartButton
+{
+    background-image: url("cart.png");
+    background-size: cover;
+    margin-right: 25px;
+    height: 30px;
+    width: 30px;
+}
+#hero
+{
+    background-image: url("71U-Q+N7PXL._SX3000_.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#shop
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.shop_box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23%;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    margin-bottom: 20px;
+}
+
+#footer
+{
+    height: 300px;
+    width: 100%;
+    background-color: #374f6e;
+}
